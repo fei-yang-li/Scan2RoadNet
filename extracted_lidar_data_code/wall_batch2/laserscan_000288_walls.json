@@ -1,0 +1,50 @@
+{
+  "walls": [
+    {
+      "id": 0,
+      "p1": [
+        -3.391029027856272,
+        -0.998681373778658
+      ],
+      "p2": [
+        5.513996011088334,
+        -0.8543742081644929
+      ],
+      "length": 8.90619422100585,
+      "direction": [
+        0.9998687225945073,
+        0.01620301130124276
+      ],
+      "rmse": 0.0034666529693044685
+    },
+    {
+      "id": 1,
+      "p1": [
+        -1.0861613950384683,
+        0.7851871906580348
+      ],
+      "p2": [
+        2.543490459048563,
+        0.8435799566440948
+      ],
+      "length": 3.630121526477719,
+      "direction": [
+        0.9998706179969755,
+        0.01608562290823903
+      ],
+      "rmse": 0.0031673039707528533
+    }
+  ],
+  "metadata": {
+    "input_file": "/home/qzl/test_road/test_online_road/extracted_lidar_data_code/extracted_lidar_data/laserscan_json2/laserscan_000288.json",
+    "num_walls": 2,
+    "x_limit": 10.0,
+    "y_limit": 5.0,
+    "params": {
+      "rdp_epsilon": 0.05,
+      "wall_rmse_thresh": 0.07,
+      "min_wall_length": 0.8,
+      "gap_thresh": 2
+    }
+  }
+}
